@@ -1,0 +1,12 @@
+linters:
+  disable:
+    - typecheck
+  enable:
+    - gocritic
+linters-settings:
+  gocritic:
+    enabled-checks:
+      - ruleguard
+    settings:
+      ruleguard:
+        rules: "linter/rules.go"
