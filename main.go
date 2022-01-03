@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"net/http"
+	"strings"
 )
 
-var _ = fmt.Sprintf("123") // rule match example
+var msg = fmt.Sprintf("123") // rule match example
 
 func main() {
-	log.Printf("on server: %s", http.ListenAndServe(":80", nil))
+	s := strings.Replace(msg, "1", "", -1) //rule match example
+
+	fmt.Println(s)
 }

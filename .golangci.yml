@@ -1,6 +1,9 @@
 linters:
   disable:
     - typecheck
+    - gosimple
+    - deadcode
+    - unused
   enable:
     - gocritic
 linters-settings:
@@ -9,4 +12,4 @@ linters-settings:
       - ruleguard
     settings:
       ruleguard:
-        rules: "linter/rules.go"
+        rules: "linter.go"
