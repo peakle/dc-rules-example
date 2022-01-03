@@ -12,3 +12,10 @@ func stringsSimplify(m dsl.Matcher) {
 		Report(`this Replace call can be simplified`).
 		Suggest(`strings.ReplaceAll($s, $old, $new)`)
 }
+
+func timeUtc(m dsl.Matcher) {
+	m.Match(`time.Now().$method`).
+		Where(!m["method"].Text.Matches(`UTC()`)).
+		Report("maybe UTC() call forgotten").
+		At(m["method"])
+}

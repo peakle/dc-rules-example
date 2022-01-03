@@ -1,2 +1,4 @@
+github.com/delivery-club/delivery-club-rules v0.0.5 h1:pD4TV7f7AG5ECOkNyMHoIEognVbE2DGlKAqRKeXWmww=
+github.com/delivery-club/delivery-club-rules v0.0.5/go.mod h1:oLl0AXS1ImTjYYbl1sJKnWjAYgqOwR3L6cs4RATfeMs=
 github.com/quasilyte/go-ruleguard/dsl v0.3.10 h1:4tVlVVcBT+nNWoF+t/zrAMO13sHAqYotX1K12Gc8f8A=
 github.com/quasilyte/go-ruleguard/dsl v0.3.10/go.mod h1:KeCP03KrjuSO0H1kTuZQCWlQPulDV6YMIXmpQss17rU=
