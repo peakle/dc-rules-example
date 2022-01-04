@@ -17,5 +17,6 @@ func timeUtc(m dsl.Matcher) {
 	m.Match(`time.Now().$method`).
 		Where(!m["method"].Text.Matches(`UTC()`)).
 		Report("maybe UTC() call forgotten").
+		Suggest("time.Now().UTC().$method").
 		At(m["method"])
 }
