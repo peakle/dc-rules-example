@@ -1,4 +1,6 @@
-package rules
+package local
+
+// Example local defined rules
 
 import "github.com/quasilyte/go-ruleguard/dsl"
 
