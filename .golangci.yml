@@ -12,4 +12,4 @@ linters-settings:
       - ruleguard
     settings:
       ruleguard:
-        rules: "linter.go"
+        rules: "linter/linter.go"

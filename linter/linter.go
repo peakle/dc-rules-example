@@ -1,12 +1,10 @@
-//go:build ignore
-// +build ignore
-
-package main
+package linter
 
 import (
 	dcRules "github.com/delivery-club/delivery-club-rules"
-	"github.com/peakle/dc-rules-example/rules"
 	"github.com/quasilyte/go-ruleguard/dsl"
+
+	"github.com/peakle/dc-rules-example/linter/rules"
 )
 
 func init() {
