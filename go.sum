@@ -2,7 +2,9 @@ github.com/delivery-club/delivery-club-rules v0.0.5 h1:pD4TV7f7AG5ECOkNyMHoIEogn
 github.com/delivery-club/delivery-club-rules v0.0.5/go.mod h1:oLl0AXS1ImTjYYbl1sJKnWjAYgqOwR3L6cs4RATfeMs=
 github.com/go-toolsmith/astequal v1.0.1 h1:JbSszi42Jiqu36Gnf363HWS9MTEAz67vTQLponh3Moc=
 github.com/go-toolsmith/astequal v1.0.1/go.mod h1:4oGA3EZXTVItV/ipGiOx7NWkY5veFfcsOJVS2YxltLw=
+github.com/go-toolsmith/strparse v1.0.0 h1:Vcw78DnpCAKlM20kSbAyO4mPfJn/lyYA4BJUDxe2Jb4=
 github.com/go-toolsmith/strparse v1.0.0/go.mod h1:YI2nUKP9YGZnL/L1/DLFBfixrcjslWct4wyljWhSRy8=
+github.com/google/go-cmp v0.5.2 h1:X2ev0eStA3AbceY54o37/0PQ/UWqKEiiO2dKL5OPaFM=
 github.com/google/go-cmp v0.5.2/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/quasilyte/go-ruleguard v0.3.1-0.20210203134552-1b5a410e1cc8/go.mod h1:KsAh3x0e7Fkpgs+Q9pNLS5XpFSvYCEVl5gP9Pp1xp30=
 github.com/quasilyte/go-ruleguard v0.3.13 h1:O1G41cq1jUr3cJmqp7vOUT0SokqjzmS9aESWJuIDRaY=
